@@ -1,0 +1,27 @@
+{
+  "name": "montink/erp",
+  "description": "Mini ERP System",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "vlucas/phpdotenv": "^5.5",
+    "phpmailer/phpmailer": "^6.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Diogo Coutinho",
+      "email": "diogo.coutinho.ads@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
