@@ -96,7 +96,7 @@
             </div>
 
             <div class="d-flex justify-content-end">
-                <a href="/orders/<?= $order['id'] ?>/edit" class="btn btn-primary me-2">Editar</a>
+                <!-- <a href="/orders/<?= $order['id'] ?>/edit" class="btn btn-primary me-2">Editar</a> -->
                 <form action="/orders/<?= $order['id'] ?>/delete" method="POST" onsubmit="return confirm('Tem certeza que deseja excluir este pedido?');">
                     <button type="submit" class="btn btn-danger">Excluir</button>
                 </form>
